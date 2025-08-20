@@ -191,7 +191,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-# Additional exlusions
+  # Additional exlusions
   - _pages/blog.md
   - _pages/projects.md
   - _pages/repositories.md

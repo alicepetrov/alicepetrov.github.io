@@ -66,10 +66,7 @@
       "startDate": "2024-09",
       "endDate": "2025-06",
       "summary": "Applied mathematical modelling and machine learning for energy systems; built MLOps architectures for data pipelines and model deployment.",
-      "highlights": [
-        "Optimized balancing of the UK National Grid",
-        "Designed MLOps patterns for robust deployment"
-      ]
+      "highlights": ["Optimized balancing of the UK National Grid", "Designed MLOps patterns for robust deployment"]
     },
     {
       "name": "University of Oxford",
@@ -119,9 +116,7 @@
       "startDate": "2020-05",
       "endDate": "2020-08",
       "summary": "Built classifiers for reusable code snippets from Jupyter notebooks.",
-      "highlights": [
-        "Developed single- and multi-label models with NLTK, Keras, scikit-learn, TensorFlow"
-      ],
+      "highlights": ["Developed single- and multi-label models with NLTK, Keras, scikit-learn, TensorFlow"],
       "meta": {
         "supervisor": "Yuan Tian"
       }
@@ -132,9 +127,7 @@
       "startDate": "2021-05",
       "endDate": "2022-08",
       "summary": "Contributed to public cloud infrastructure: logging, compliance, and internal libraries.",
-      "highlights": [
-        "Python, AWS Lambda, DynamoDB, SNS, Kinesis, PingFederate, REST APIs, CI/CD"
-      ]
+      "highlights": ["Python, AWS Lambda, DynamoDB, SNS, Kinesis, PingFederate, REST APIs, CI/CD"]
     },
     {
       "name": "Ontario Teachers' Pension Plan",
@@ -142,9 +135,7 @@
       "startDate": "2019-05",
       "endDate": "2019-08",
       "summary": "Automation and analytics in Java; built data pipelines for ongoing departmental use.",
-      "highlights": [
-        "Automated daily data wrangling and visualization tasks"
-      ]
+      "highlights": ["Automated daily data wrangling and visualization tasks"]
     }
   ],
   "awards": [
@@ -239,10 +230,7 @@
       "position": "Various Outreach Roles",
       "startDate": "2024",
       "endDate": "2024",
-      "highlights": [
-        "Oxford Maths Festival: interactive Sphero programming sessions",
-        "Oxford Online Maths Club: workshops for 6th form students"
-      ]
+      "highlights": ["Oxford Maths Festival: interactive Sphero programming sessions", "Oxford Online Maths Club: workshops for 6th form students"]
     }
   ],
   "projects": [
