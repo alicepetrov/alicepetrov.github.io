@@ -147,60 +147,6 @@
       ]
     }
   ],
-  "publications": [
-    {
-      "name": "Automated Planning Techniques for Elementary Proofs in Abstract Algebra",
-      "publisher": "Scheduling and Planning Applications Workshop, ICAPS",
-      "releaseDate": "2023",
-      "url": "https://icaps23.icaps-conference.org/program/workshops/spark/",
-      "authors": ["Alice Petrov", "Christian Muise"]
-    },
-    {
-      "name": "PARIS: Planning Algorithms for Reconfiguring Independent Sets",
-      "publisher": "26th European Conference on Artificial Intelligence (ECAI 2023)",
-      "releaseDate": "2023",
-      "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA230303",
-      "authors": [
-        "Remo Christen",
-        "Salomé Eriksson",
-        "Michael Katz",
-        "Christian Muise",
-        "Alice Petrov",
-        "Florian Pommerening",
-        "Jendrik Seipp",
-        "Silvan Sievers",
-        "David Speck"
-      ]
-    },
-    {
-      "name": "From State Spaces to Semigroups: Leveraging Algebraic Formalism for Automated Planning",
-      "publisher": "Workshop on Heuristics and Search for Domain-independent Planning (HSDIP), ICAPS",
-      "releaseDate": "2023",
-      "url": "https://icaps23.icaps-conference.org/program/workshops/hsdip/",
-      "authors": ["Alice Petrov", "Christian Muise"]
-    },
-    {
-      "name": "Analyzing the Robustness of Open Source Software Ecosystems to the Loss of Contributors: A Case Study",
-      "publisher": "Preprint",
-      "releaseDate": "2022",
-      "url": "http://dx.doi.org/10.2139/ssrn.4082801",
-      "authors": ["Zhendong Sha", "Alice Petrov", "Yuan Tian", "Ting Hu"]
-    },
-    {
-      "name": "Introduction to Stratified Spaces and Intersection Homology",
-      "publisher": "Expository Article",
-      "releaseDate": "2024-11",
-      "url": "https://arxiv.org/abs/2411.06296",
-      "authors": ["Alice Petrov"]
-    },
-    {
-      "name": "The Essence of de Rham Cohomology",
-      "publisher": "Expository Article",
-      "releaseDate": "2024",
-      "url": "https://openreview.net/pdf?id=ocTyIiCroh",
-      "authors": ["Alice Petrov"]
-    }
-  ],
   "awards": [
     {
       "title": "NSERC Postgraduate Scholarship - Doctoral",
