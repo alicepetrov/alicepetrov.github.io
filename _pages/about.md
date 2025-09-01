@@ -2,7 +2,7 @@
 layout: about
 title: Alice Petrov
 permalink: /
-subtitle: "<a href='#'>Affiliations</a>: MIT EECS (PhD), Oxford (MSc). Geometric Data Processing · TDA · Geometric ML."
+subtitle: "<a href='#'>Affiliations</a>: MIT EECS (PhD), Oxford (MSc)"
 
 profile:
   align: right
