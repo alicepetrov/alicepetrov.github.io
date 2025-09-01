@@ -6,58 +6,53 @@ nav: true
 nav_order: 2
 ---
 
-### Research interests
-
-- Geometric & topological methods for ML
-- Invariant/equivariant models and discrete differential operators
-- Robust representation learning on non-Euclidean domains (meshes, manifolds, graphs)
-- Applications: scientific computing, vision/graphics, and data-driven PDEs
-
-### Current directions
-
-- **Topology-aware learning pipelines** that use persistent/intersection homology to guide architecture and regularization.
-- **Structure-preserving operators** for meshes and point clouds (discrete exterior calculus; spectral methods).
-- **Data with singularities**: detecting, characterizing, and leveraging singular structure in high-dimensional data.
-
 <style>
   /* Scope all fixes to the BibBase area */
-  #bibbase {
-    /* nothing here; just a scope anchor */
-  }
+  #bibbase { }
 
-  /* 1) Hide any <hr> BibBase adds (horizontal bars) */
+  /* 1) Hide BibBase HRs (horizontal separators) just in case */
   #bibbase hr,
   #bibbase .bibbase_group > hr,
   #bibbase .bibbase_paper > hr {
     display: none !important;
   }
 
-  /* 2) Remove vertical borders some themes put on lists/blocks */
-  #bibbase .bibbase_group,
-  #bibbase .bibbase_paper,
-  #bibbase li,
-  #bibbase ul,
-  #bibbase ol,
-  #bibbase blockquote {
+  /* 2) Remove vertical "timeline" bars the theme adds to year/group headings */
+  #bibbase .year,
+  #bibbase h1.year, #bibbase h2.year, #bibbase h3.year, #bibbase h4.year, #bibbase h5.year, #bibbase h6.year,
+  #bibbase .bibbase_group > h1, #bibbase .bibbase_group > h2, #bibbase .bibbase_group > h3,
+  #bibbase .bibbase_group > h4, #bibbase .bibbase_group > h5, #bibbase .bibbase_group > h6 {
     border: 0 !important;
     box-shadow: none !important;
+    position: static !important;
   }
 
-  /* 3) Kill common left-border styles (e.g., blockquotes / timelines) */
-  #bibbase blockquote {
-    border-left: 0 !important;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-  }
-
-  /* 4) Nuke decorative pseudo-elements that can render as vertical lines */
-  #bibbase .bibbase_group::before,
-  #bibbase .bibbase_group::after,
-  #bibbase .bibbase_paper::before,
-  #bibbase .bibbase_paper::after,
-  #bibbase li::before {
+  #bibbase .year::before,  #bibbase .year::after,
+  #bibbase h1.year::before, #bibbase h1.year::after,
+  #bibbase h2.year::before, #bibbase h2.year::after,
+  #bibbase h3.year::before, #bibbase h3.year::after,
+  #bibbase h4.year::before, #bibbase h4.year::after,
+  #bibbase h5.year::before, #bibbase h5.year::after,
+  #bibbase h6.year::before, #bibbase h6.year::after,
+  #bibbase .bibbase_group > h1::before, #bibbase .bibbase_group > h1::after,
+  #bibbase .bibbase_group > h2::before, #bibbase .bibbase_group > h2::after,
+  #bibbase .bibbase_group > h3::before, #bibbase .bibbase_group > h3::after,
+  #bibbase .bibbase_group > h4::before, #bibbase .bibbase_group > h4::after,
+  #bibbase .bibbase_group > h5::before, #bibbase .bibbase_group > h5::after,
+  #bibbase .bibbase_group > h6::before, #bibbase .bibbase_group > h6::after {
     content: none !important;
     display: none !important;
+  }
+
+  /* 3) Extra safety: some themes add a vertical rule via a parent "timeline" container */
+  #bibbase .timeline,
+  #bibbase .timeline::before,
+  #bibbase .bibbase_group::before,
+  #bibbase .bibbase_group::after {
+    content: none !important;
+    display: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
   }
 </style>
 
