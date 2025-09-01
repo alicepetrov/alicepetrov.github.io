@@ -35,16 +35,16 @@ Previously, I completed an **MSc in Mathematics and Foundations of Computer Scie
 
 ### Research interests
 
-* Geometric & topological methods for ML (persistence, sheaves, differential/metric geometry)
-* Invariant/equivariant models and discrete differential operators
-* Robust representation learning on non-Euclidean domains (meshes, manifolds, graphs)
-* Applications: scientific computing, vision/graphics, and data-driven PDEs
+- Geometric & topological methods for ML (persistence, sheaves, differential/metric geometry)
+- Invariant/equivariant models and discrete differential operators
+- Robust representation learning on non-Euclidean domains (meshes, manifolds, graphs)
+- Applications: scientific computing, vision/graphics, and data-driven PDEs
 
 ### Current directions
 
-* **Topology-aware learning pipelines** that use persistent/intersection homology to guide architecture and regularization.
-* **Structure-preserving operators** for meshes and point clouds (discrete exterior calculus; spectral methods).
-* **Data with singularities**: detecting, characterizing, and leveraging singular structure in high-dimensional data.
+- **Topology-aware learning pipelines** that use persistent/intersection homology to guide architecture and regularization.
+- **Structure-preserving operators** for meshes and point clouds (discrete exterior calculus; spectral methods).
+- **Data with singularities**: detecting, characterizing, and leveraging singular structure in high-dimensional data.
 
 ### Outreach & teaching
 
