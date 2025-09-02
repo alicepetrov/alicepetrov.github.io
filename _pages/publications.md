@@ -27,19 +27,25 @@ nav_order: 2
   #group_unpublished div.bibbase_group i:after { content: "Unpublished" }
   #group_incollection div.bibbase_group i:after { content: "In Collection" }
 
-  /* FIX 1: Style the new group names to look like normal text */
+  /* FIX 1: Style the new group names to have italic, non-bold headings */
   div.bibbase_group > i:after {
-    font-family: sans-serif; /* Use a standard, non-italic font */
-    font-style: normal;      /* Explicitly set the style to normal */
-    font-weight: bold;       /* Make the headings bold */
+    font-family: sans-serif; /* Use a standard font */
+    font-style: italic;     /* Set the style to italic */
+    font-weight: normal;     /* Set the weight to normal (non-bold) */
     font-size: 1.2rem;       /* Make the font size appropriate for a heading */
     color: #333333;          /* Set a standard text color */
   }
 
-  /* FIX 2: Hide the vertical bar separator within each entry */
-  .bibbase_entry .bibbase_sep {
-    display: none;
+  /* FIX 2: Hide the vertical bar separator within each entry (more targeted) */
+  /* This targets any span with a pipe separator or a similar separator class */
+  .bibbase_entry span.separator,
+  .bibbase_entry .bibbase_sep,
+  .bibbase_entry .bibbase_url:before, /* specifically target the separator before URL/Note */
+  .bibbase_entry .bibbase_note:before {
+    display: none !important; /* Use !important to ensure override */
+    content: none !important; /* Ensure pseudo-elements are cleared */
   }
+
 </style>
 
 <script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/alicepetrov/alicepetrov.github.io/main/_bibliography/papers.bib&jsonp=1"></script>
