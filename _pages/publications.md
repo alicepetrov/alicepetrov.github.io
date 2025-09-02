@@ -36,14 +36,18 @@ nav_order: 2
     color: #333333;          /* Set a standard text color */
   }
 
-  /* FIX 2: Hide the vertical bar separator within each entry (more targeted) */
-  /* This targets any span with a pipe separator or a similar separator class */
-  .bibbase_entry span.separator,
-  .bibbase_entry .bibbase_sep,
-  .bibbase_entry .bibbase_url:before, /* specifically target the separator before URL/Note */
-  .bibbase_entry .bibbase_note:before {
-    display: none !important; /* Use !important to ensure override */
-    content: none !important; /* Ensure pseudo-elements are cleared */
+  /* FIX 2: Remove rendered separators (borders or pseudo-elements) */
+  .bibbase_entry span {
+    /* Aggressively remove borders and spacing from any span inside an entry */
+    border: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+  .bibbase_entry span::before,
+  .bibbase_entry span::after {
+    /* Aggressively hide any pseudo-elements that might be rendering the bar */
+    display: none !important;
+    content: none !important;
   }
 
 </style>
