@@ -57,8 +57,9 @@ nav_order: 2
 </style>
 
 <!-- Give BibBase a dedicated container so the CSS above applies reliably -->
-<div id="bibbase"></div>
+<div id="bibbase">
 <script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/alicepetrov/alicepetrov.github.io/main/_bibliography/papers.bib&jsonp=1"></script>
+</div>
 
 <noscript>
   <p>Please enable JavaScript to see publications.</p>
