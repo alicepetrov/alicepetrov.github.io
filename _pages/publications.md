@@ -27,32 +27,17 @@ nav_order: 2
   #group_unpublished div.bibbase_group i:after { content: "Unpublished" }
   #group_incollection div.bibbase_group i:after { content: "In Collection" }
 
-  /* FIX 1: Style the new group names to have italic, non-bold headings */
+  /* Style the new group names to have italic, non-bold headings */
   div.bibbase_group > i:after {
-    font-family: sans-serif; /* Use a standard font */
-    font-style: italic;     /* Set the style to italic */
-    font-weight: normal;     /* Set the weight to normal (non-bold) */
-    font-size: 1.2rem;       /* Make the font size appropriate for a heading */
-    color: #333333;          /* Set a standard text color */
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #333333;
   }
-
-  /* FIX 2: Remove rendered separators (borders or pseudo-elements) */
-  .bibbase_entry span {
-    /* Aggressively remove borders and spacing from any span inside an entry */
-    border: none !important;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-  }
-  .bibbase_entry span::before,
-  .bibbase_entry span::after {
-    /* Aggressively hide any pseudo-elements that might be rendering the bar */
-    display: none !important;
-    content: none !important;
-  }
-
 </style>
 
-<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/alicepetrov/alicepetrov.github.io/main/_bibliography/papers.bib&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/alicepetrov/alicepetrov.github.io/main/_bibliography/papers.bib&jsonp=1&theme=simple"></script>
 
 <noscript>
   <p>Please enable JavaScript to see publications.</p>
