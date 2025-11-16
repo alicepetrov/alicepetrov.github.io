@@ -2,7 +2,7 @@
 layout: about
 title: Alice Petrov
 permalink: /
-subtitle:
+subtitle: 
 
 profile:
   align: right
@@ -39,3 +39,8 @@ Previously, I completed an **MSc in Mathematics and Foundations of Computer Scie
 I served as **Vice President of Outreach** for **Oxford Womxn in Computer Science (OxWoCS)** and have organized hands-on workshops (GirlsWhoML), problem-solving clubs, and GenSTEM events. I've taught Royal Institution CS masterclasses and contributed to Oxford outreach (Maths Festival, Online Maths Club).
 
 If you're a student or collaborator interested in geometric ML, TDA, or geometry-aware vision/graphics, feel free to reach out!
+
+### Contact
+
+Office: Stata Center, 32-D476
+Please email me at **alicepet (at) mit (dot) edu**
