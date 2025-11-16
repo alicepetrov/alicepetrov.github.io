@@ -43,4 +43,5 @@ If you're a student or collaborator interested in geometric ML, TDA, or geometry
 ### Contact
 
 Office: Stata Center, 32-D476
+
 Please email me at **alicepet (at) mit (dot) edu**
