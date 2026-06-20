@@ -30,7 +30,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a first year PhD student in the [Geometric Data Processing Group](https://groups.csail.mit.edu/gdpgroup/) at **[MIT CSAIL](https://www.csail.mit.edu/)**, advised by [Justin Solomon](https://people.csail.mit.edu/jsolomon/). My research sits at the intersection of **geometric data processing**, **topological data analysis**, and **geometric machine learning**. I care about algorithms and theory that respect the underlying geometry and topology of data—so we can model, learn, and reason with fewer brittle hacks and more structural guarantees.
+I'm a first year PhD student in the [Geometric Data Processing Group](https://groups.csail.mit.edu/gdpgroup/) at **[MIT CSAIL](https://www.csail.mit.edu/)**, advised by [Justin Solomon](https://people.csail.mit.edu/jsolomon/). My research sits at the intersection of **geometric data processing**, **topological data analysis**, and **geometric machine learning**. I care about algorithms and theory that respect the underlying geometry and topology of data, so we can model, learn, and reason with fewer brittle hacks and more structural guarantees.
 
 Previously, I completed an **MSc in Mathematics and Foundations of Computer Science at the [University of Oxford](https://www.ox.ac.uk/)**, where I worked on persistent intersection homology and thought a lot about stratified spaces. Before that, I studied computing, mathematics, and analytics at **[Queen's University](https://www.queensu.ca/)**, with research spanning algebraic models for automated planning, robustness of open-source ecosystems, and ML for code.
 
