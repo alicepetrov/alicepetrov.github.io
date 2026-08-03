@@ -1,7 +1,0 @@
-{
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "meta": {
-    "canonical": "https://jsonresume.org/schema/",
-    "version": "v1.0.0"
-  }
-}
